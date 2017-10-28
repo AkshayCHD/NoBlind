@@ -28,6 +28,9 @@ dependencies {
 
 
     compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.microsoft.projectoxford:vision:1.0.374'
+
+    compile 'com.microsoft.projectoxford:emotion:1.0.355'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:design:26.+'
     compile 'com.google.android.gms:play-services-vision:9.4.0'

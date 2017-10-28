@@ -6,13 +6,30 @@
     android:layout_height="match_parent"
     tools:context="com.example.akshay.noblind.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/clickImage"
+        android:layout_width="367dp"
+        android:layout_height="246dp"
+        app:layout_constraintVertical_weight="1"
+        app:srcCompat="@android:drawable/arrow_up_float"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:onClick="clickImageClicked"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <ImageButton
+        android:id="@+id/AnalyseImage"
+        android:layout_width="367dp"
+        android:layout_height="242dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="AnalyseImageClicked"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clickImage"
+        app:layout_constraintVertical_weight="1"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
 </android.support.constraint.ConstraintLayout>
