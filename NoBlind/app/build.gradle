@@ -25,6 +25,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.microsoft.projectoxford:vision:1.0.374'
+
+    compile 'com.microsoft.projectoxford:emotion:1.0.355'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 }
